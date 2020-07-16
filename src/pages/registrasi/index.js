@@ -11,7 +11,7 @@ import logo from "../../images/logo.png";
 
 import useStyles from "./styles";
 
-
+import isEmail from "validator/lib/isEmail";
 
 import {
   auth,
@@ -91,6 +91,7 @@ export default function Registrasi() {
           createdAt: FieldValue.serverTimestamp()
         });
       } catch (e) {
+        setSubmitting(false);
         let newError = {};
         console.log(e.message);
         switch (e.code) {
@@ -113,7 +114,6 @@ export default function Registrasi() {
 
         setError(newError);
       }
-      setSubmitting(false);
     }
   };
 
