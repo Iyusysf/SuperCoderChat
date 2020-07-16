@@ -1,12 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyC1asYDzvJrFkJVwop8AAf8W1dnpuZN2ew",
-  authDomain: "supercoder-chat-app.firebaseapp.com",
-  databaseURL: "https://supercoder-chat-app.firebaseio.com",
-  projectId: "supercoder-chat-app",
-  storageBucket: "supercoder-chat-app.appspot.com",
-  messagingSenderId: "306898878193",
-  appId: "1:306898878193:web:4b5514fd849b150cf83350",
-  measurementId: "G-8YP4JM2M07"
+  apiKey: "AIzaSyBpn6nz1oxagMfdNNkRE0L2ihh9zTVH8_8",
+  authDomain: "supervoucher-141bc.firebaseapp.com",
+  databaseURL: "https://supervoucher-141bc.firebaseio.com",
+  projectId: "supervoucher-141bc",
+  storageBucket: "supervoucher-141bc.appspot.com",
+  messagingSenderId: "456863107610",
+  appId: "1:456863107610:web:91189032e4e567853a9fa3"
 };
-
 export default firebaseConfig;
